@@ -145,7 +145,6 @@ bool GetFile() {
      ZeroMemory(&p2i, sizeof(p2i));
 	 string DamnWin32Strings1 = "C:\\WINDOWS\\system32\\curl.exe -K " + TEMPDIR + "curlDownConfig.txt";
      if (!CreateProcess(NULL,                // Use Command line
-	//	 TEXT("C:\\WINDOWS\\system32\\curl.exe -k -u gavine:skaterboi -s https://zji.homelinux.net/restricted_content/metatrader/getWorkUnit.php -o C:\\GAVTMP\\XMLDOWN.xml"), // program to start, command line
 		 TEXT((LPSTR)DamnWin32Strings1.c_str()),
         NULL,                                                 // don't inherit process hnadle
         NULL,                                                 // Don't inherit thread handle
