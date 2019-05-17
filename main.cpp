@@ -665,7 +665,6 @@ bool UploadResults() {
     // Create child process
     if (CreateProcess(NULL,                // Use Command line
 		
-		//"C:\\WINDOWS\\system32\\curl.exe -k -u gavine:skaterboi -s -F resultfile=C:\\GAVTMP\\UPLOADME.xml -F completed=1 -F MAX_FILE_SIZE=10000000 -F ClickHere=ClickHere -F action=/restricted_content/metatrader/return_results.php https://zji.homelinux.net/restricted_content/metatrader/return_results.php",
 		TEXT("C:\\WINDOWS\\system32\\curl.exe -K C:\\GAVTMP\\curlUpConfig.txt"), 		  // program to start, command line
 		NULL,                                                 // don't inherit process hnadle
         NULL,                                                 // Don't inherit thread handle
